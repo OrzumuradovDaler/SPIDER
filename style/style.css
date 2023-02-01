@@ -237,3 +237,138 @@ color: #333333;
  text-align: center;
     }
 }
+@media (max-width: 741px){
+    .bsgrid-item{
+     grid-template-columns: repeat(1,1fr);
+ } 
+     .tsbottom{
+     grid-template-columns: repeat(1,1fr);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+ .tbleft{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
+ }
+     .tbbotomright{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+ .contacts{
+     grid-template-columns: repeat(1,1fr);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-self: center;
+ }
+ .cdefaultblock p{
+font-size: 20px;
+text-align: center;
+ }
+ .tbleft p {
+    font-size: 22px;
+    margin: 20px 0 0 ;
+ }
+ .tbleft h1{
+    font-size: 50px;
+ }
+ .tbbotomright h2{
+    font-size: 45px;
+    font-weight: 500;
+ }
+ .tbbotomright p{
+    font-size: 20px;
+    margin: 20px 0 0;
+ }
+ .zagolovok{
+    margin-top: -100px;
+ }
+.bsgrid-item{
+    padding: 0 150px;
+}
+.grid-item {
+    height: 227px;
+}
+.tsbottom p{
+    text-align: center;
+    }
+    .tsbottom h1{
+        text-align: center;
+    }
+}
+@media (max-width: 679px){
+.header{
+    padding: 20px 30px 20px;
+}
+.tsbottom p{
+text-align: center;
+}
+.tsbottom h1{
+    text-align: center;
+}
+.tbleft{
+    margin: 100px 100px;
+}
+.tbright{
+    margin-top: -50px;
+}
+.tbbotomright p{
+    text-align: center;
+}
+.tbbotomright h2{
+    text-align: center;
+}
+.bsgrid-item{
+    gap: 30px;
+}
+}
+@media (max-width: 400px){
+    .tbright img{
+    width: 358px;
+    height: 464px;
+    }
+    .header{
+        padding: 15px 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hdright a{
+
+        margin: 30px;
+    }
+.hdright{
+    margin-top: 20px;
+}
+.tbleft h1{
+    font-size: 40px;
+    line-height: 30px;
+}
+.tbbotomright h2{
+    font-size: 40px;
+    line-height: 30px;
+}
+.tbbotomright{
+    padding: 0;
+}
+.bsgrid-item{
+    padding: 50px;
+}
+.tlbuttons{
+    display: flex;
+    gap: 10px;
+}
+.zagolovok h2{
+    font-size: 40px;
+}
+.zagolovok{
+    margin-top: -120px;
+}
+}
+
