@@ -328,8 +328,9 @@ text-align: center;
 .bsgrid-item{
     gap: 30px;
 }
+
 }
-@media (max-width: 400px){
+@media (max-width: 490px){
     .tbright img{
     width: 358px;
     height: 464px;
