@@ -302,6 +302,46 @@ text-align: center;
     .tsbottom h1{
         text-align: center;
     }
+    .tbright img{
+        width: 358px;
+        height: 464px;
+        }
+        .header{
+            padding: 15px 5px;
+            display: flex;
+            flex-direction: column;
+        }
+        .hdright a{
+    
+            margin: 30px;
+        }
+    .hdright{
+        margin-top: 20px;
+    }
+    .tbleft h1{
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .tbbotomright h2{
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .tbbotomright{
+        padding: 0;
+    }
+    .bsgrid-item{
+        padding: 50px;
+    }
+    .tlbuttons{
+        display: flex;
+        gap: 10px;
+    }
+    .zagolovok h2{
+        font-size: 40px;
+    }
+    .zagolovok{
+        margin-top: -120px;
+    }
 }
 @media (max-width: 679px){
 .header{
